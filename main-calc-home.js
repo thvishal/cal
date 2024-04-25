@@ -273,7 +273,7 @@ const _handleSubmit = async (e) => {
                 downloadPDFElement.style.display = 'flex';
                 // provideCountryToFormHeader(countryCd.label)
                 document.getElementById("err-msg").style.display = "none";
-                document.getElementById("calc-selected-country").innerHTML = `Cost Breakdown - ${countryCd.label}`;
+                document.getElementById("calc-selected-country").innerHTML = `- ${countryCd.label}`;
                 comData.currency = currencyCd.value
                 salaryData();
                 showModalHandler();
