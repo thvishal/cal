@@ -306,7 +306,7 @@ const _handleSubmit = async (e) => {
             document.getElementById("calculate-salary").innerText = "Calculate";
 
             const countryValue = document.getElementById("country-input").value;
-            document.getElementById("calc-selected-country").innerText = `Cost Breakdown - ${countryCd.label}`;
+            document.getElementById("calc-selected-country").innerText = `- ${countryCd.label}`;
 
         })
 
