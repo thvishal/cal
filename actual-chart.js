@@ -155,8 +155,10 @@ const searchHandler = (event, formId) => {
 
                 if (duration == 'year') {
                     creatChart(minCtcYear, maxCtcYear);
-                    getMedian(maxCtcYear)
-                    document.getElementById('median-salary').innerText = `$${Number(medianValue.toFixed(2))}`
+                    getMedian(maxCtcYear);
+                    let actVal = Number(medianValue.toFixed(2));
+                     actVal = actVal.toLocaleString();
+                    document.getElementById('median-salary').innerText = `$${actVal}`
                 }
                 else {
                     creatChart(minCtcMonth, maxCtcMonth);
