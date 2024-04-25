@@ -8,7 +8,7 @@ import {
     filterList,
     updateMeta,
     commaSeprateVal
-} from "https://dl.dropboxusercontent.com/scl/fi/jsc6x4glt91e2qx9j07zx/main-calc-sm-helper.js?rlkey=75z3tckfue34br11izio2ybto&st=ueqbibce&dl=0"
+} from "https://cdn.jsdelivr.net/gh/thvishal/cal/main-calc-sm-helper.js"
 // old helper -> https://dl.dropboxusercontent.com/scl/fi/ls6hryquf3ymagqb73lc5/new-updated-main-helper.js?rlkey=cdnhfh3wdljjzpmft1bl7sowv&dl=0
 
 let currencyList = [
