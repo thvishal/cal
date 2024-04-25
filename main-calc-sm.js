@@ -275,7 +275,7 @@ const _handleSubmit = async (e) => {
 
                 // provideCountryToFormHeader(countryCd.label)
                 document.getElementById("err-msg").style.display = "none";
-                document.getElementById("calc-selected-country").innerHTML = `Cost Breakdown - ${countryCd.label}`;
+                document.getElementById("calc-selected-country").innerHTML = `- ${countryCd.label}`;
                 comData.currency = currencyCd.value
                 document.getElementById('calc-home-img').style.display = 'none'
                 salaryData();
