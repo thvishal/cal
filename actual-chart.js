@@ -332,7 +332,9 @@ durationChange.addEventListener('change', (e) => {
         creatChart(minCtcYear, maxCtcYear);
         time[1].classList.add('active')
         getMedian(maxCtcYear);
-        document.getElementById('median-salary').innerText = `$${Number(medianValue.toFixed(2))}`;
+        let actVal = Number(medianValue.toFixed(2));
+        actVal = actVal.toLocaleString();
+        document.getElementById('median-salary').innerText = `$${actVal}`;
 
     } else { // else show monthly value
         console.log('month')
@@ -340,7 +342,9 @@ durationChange.addEventListener('change', (e) => {
         creatChart(minCtcMonth, maxCtcMonth);
         time[0].classList.add('active')
         getMedian(maxCtcMonth);
-        document.getElementById('median-salary').innerText = `$${Number(medianValue.toFixed(2))}`
+        let actVal = Number(medianValue.toFixed(2));
+        actVal = actVal.toLocaleString();
+        document.getElementById('median-salary').innerText = `$${actVal}`
     }
 })
 
