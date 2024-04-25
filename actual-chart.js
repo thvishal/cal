@@ -162,8 +162,10 @@ const searchHandler = (event, formId) => {
                 }
                 else {
                     creatChart(minCtcMonth, maxCtcMonth);
-                    getMedian(maxCtcMonth)
-                    document.getElementById('median-salary').innerText = `$${Number(medianValue.toFixed(2))}`
+                    getMedian(maxCtcMonth);
+                    let actVal = Number(medianValue.toFixed(2));
+                     actVal = actVal.toLocaleString();
+                    document.getElementById('median-salary').innerText = `$${actVal}`
                 }
             }
 
