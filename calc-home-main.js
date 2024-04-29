@@ -35,8 +35,8 @@ const countryListWithCurrency = countryList
 createList(currencyList, "currency-list");
 createListCurrency(currencyList, "currency-input");
 
-// const baseUrl = 'https://cost-calculator.skuad.io/cost-calculator/cost';
-const baseUrl = 'https://cost-calculator.skuad.in/cost-calculator/cost';
+const baseUrl = 'https://cost-calculator.skuad.io/cost-calculator/cost';
+//const baseUrl = 'https://cost-calculator.skuad.in/cost-calculator/cost';
 
 // const endpoint = baseUrl + "?countryCode=:countryCode&currencyCode=:currencyCode&salary=:salary&client=website"
 const endpoint = baseUrl + "?client=website&countryCode=:countryCode&currencyCode=:currencyCode&salary=:salary&isExpat=:isExpat&provinceCode=:provinceCode"
