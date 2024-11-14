@@ -298,6 +298,7 @@ const _handleSubmit = async (e) => {
                 document.querySelector('.e-mail-submit-wrapper').style.display = 'block';
             } else {
                 document.getElementById("err-msg").style.display = "block";
+                document.getElementById('calc-home-img').style.display = 'none';
                 document.getElementById("show-calculator-modal").style.display = "none";
                 getCountryForError.innerText = `Want a detailed breakdown for cost of employment in ${countryInput.value}`
             }
